@@ -1,5 +1,6 @@
 function makeGreen (){
     document.body.style.backgroundColor = "green";
+    document.getElementById("color-name").innerText = "It's Green!"
 }
 
 //On-click event in js
