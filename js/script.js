@@ -26,3 +26,14 @@ purpuleButton.addEventListener("click", makePurple);
 function makePurple (){
     document.body.style.backgroundColor = "purple";
 }
+
+//Event listner once again and anonymous function in action
+const cyanButton = document.getElementById("cyan-btn");
+cyanButton.addEventListener("click", function(){
+    document.body.style.backgroundColor = "cyan";
+})
+
+//Everything everywhere all at once in action ;p
+document.getElementById("indigo-btn").addEventListener("click",function(){
+    document.body.style.backgroundColor = "indigo";
+})
